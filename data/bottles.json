@@ -1,0 +1,92 @@
+[
+  {
+    "id": "highland-malt-12",
+    "name": "Highland Malt 12 Year",
+    "brand": "Glen Auchmore",
+    "type": "Whisky",
+    "origin": "Scotland",
+    "abv": 43,
+    "volume": 50,
+    "year": 2011,
+    "description": "A rich and warming single malt with notes of heather honey, dried fruit, and a whisper of coastal smoke. Long, satisfying finish.",
+    "imagePath": "/images/whisky.png"
+  },
+  {
+    "id": "london-dry-gin",
+    "name": "London Dry Gin",
+    "brand": "Botanica No. 7",
+    "type": "Gin",
+    "origin": "England",
+    "abv": 40,
+    "volume": 50,
+    "description": "A classic London Dry expression built on juniper, with bright citrus peel, coriander, and a dry, clean finish. Perfect in a G&T.",
+    "imagePath": "/images/gin.png"
+  },
+  {
+    "id": "dark-spiced-rum",
+    "name": "Dark Spiced Rum",
+    "brand": "Anchor Bay",
+    "type": "Rum",
+    "origin": "Jamaica",
+    "abv": 40,
+    "volume": 50,
+    "description": "Bold and full-bodied with molasses, vanilla bean, cinnamon, and a touch of dark chocolate. A smooth sipping rum.",
+    "imagePath": "/images/rum.png"
+  },
+  {
+    "id": "crystal-vodka",
+    "name": "Crystal Vodka",
+    "brand": "Polaris",
+    "type": "Vodka",
+    "origin": "Poland",
+    "abv": 40,
+    "volume": 50,
+    "description": "Triple-distilled from the finest winter wheat. Exceptionally clean and smooth with a subtle sweetness and silky texture.",
+    "imagePath": "/images/vodka.png"
+  },
+  {
+    "id": "agave-tequila-reposado",
+    "name": "Agave Tequila Reposado",
+    "brand": "Casa Agavero",
+    "type": "Tequila",
+    "origin": "Mexico",
+    "abv": 38,
+    "volume": 50,
+    "description": "Aged 8 months in American oak barrels. Cooked agave sweetness balanced with vanilla, light oak spice, and a warm earthy finish.",
+    "imagePath": "/images/tequila.png"
+  },
+  {
+    "id": "violet-berry-liqueur",
+    "name": "Violet Berry Liqueur",
+    "brand": "Maison Florale",
+    "type": "Liqueur",
+    "origin": "France",
+    "abv": 20,
+    "volume": 50,
+    "description": "A luscious liqueur crafted from wild blackberries and violet blossoms. Deeply aromatic with a velvety, sweet finish.",
+    "imagePath": "/images/liqueur.png"
+  },
+  {
+    "id": "kentucky-straight-bourbon",
+    "name": "Kentucky Straight Bourbon",
+    "brand": "Millstone Creek",
+    "type": "Whisky",
+    "origin": "United States",
+    "abv": 45,
+    "volume": 50,
+    "year": 2018,
+    "description": "Full-bodied and robust with caramel, toasted oak, vanilla, and a bold rye spice on the finish. A true American classic.",
+    "imagePath": "/images/bourbon.png"
+  },
+  {
+    "id": "vsop-cognac",
+    "name": "VSOP Cognac",
+    "brand": "Château Lumière",
+    "type": "Cognac",
+    "origin": "France",
+    "abv": 40,
+    "volume": 50,
+    "description": "An elegant VSOP aged a minimum of 4 years in Limousin oak. Dried apricot, orange zest, roasted nuts, and a long spiced finish.",
+    "imagePath": "/images/cognac.png"
+  }
+]
