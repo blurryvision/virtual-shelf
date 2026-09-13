@@ -9,12 +9,12 @@ interface ShelfRackProps {
   bottles: Bottle[];
 }
 
-const COLUMNS = 4;
+const COLUMNS = 12;
 
 export default function ShelfRack({ bottles }: ShelfRackProps) {
   const [selectedBottle, setSelectedBottle] = useState<Bottle | null>(null);
 
-  // Pad to nearest multiple of COLUMNS so grid is always full
+  // Pad to nearest multiple of 12 so grid is always full for 1, 2, 3, 4, or 6 columns
   const totalCells = Math.ceil(bottles.length / COLUMNS) * COLUMNS;
   const cells: (Bottle | null)[] = [
     ...bottles,

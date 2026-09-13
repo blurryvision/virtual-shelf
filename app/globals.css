@@ -176,12 +176,9 @@ body {
 
   width: min(
     96vw,
-    calc(
-      (90vh - 2 * var(--shelf-outer) - 1 * var(--shelf-wall)) / 2 * 4
-      + 3 * var(--shelf-wall)
-      + 2 * var(--shelf-outer)
-    )
+    1200px
   );
+  max-width: 100%;
 }
 
 /* Each square compartment */
@@ -525,6 +522,12 @@ body {
    RESPONSIVE
    ========================================================= */
 
+@media (max-width: 1024px) {
+  .shelf-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   :root {
     --shelf-wall: 12px;
@@ -533,6 +536,10 @@ body {
 
   .page-wrapper {
     padding: 12px;
+  }
+
+  .shelf-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .modal-content {
@@ -545,5 +552,11 @@ body {
 
   .modal-bottle-img {
     height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .shelf-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
